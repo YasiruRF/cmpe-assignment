@@ -573,6 +573,31 @@ applicable agreement for further details.
 	)
 	(rotate270)
 )
+(symbol
+	(rect 496 536 544 568)
+	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
+	(text "inst1" (rect 3 21 26 33)(font "Arial" ))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 13 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 39 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 13 25)(pt 13 7))
+		(line (pt 13 7)(pt 31 16))
+		(line (pt 13 25)(pt 31 16))
+		(circle (rect 31 12 39 20))
+	)
+)
 (connector
 	(pt 592 616)
 	(pt 592 552)
@@ -814,16 +839,8 @@ applicable agreement for further details.
 	(pt 720 616)
 )
 (connector
-	(pt 592 552)
-	(pt 736 552)
-)
-(connector
 	(pt 736 552)
 	(pt 888 552)
-)
-(connector
-	(pt 488 552)
-	(pt 592 552)
 )
 (connector
 	(text "A[0]" (rect 1600 447 1612 467)(font "Arial" )(vertical))
@@ -846,6 +863,18 @@ applicable agreement for further details.
 (connector
 	(pt 720 504)
 	(pt 872 504)
+)
+(connector
+	(pt 488 552)
+	(pt 496 552)
+)
+(connector
+	(pt 544 552)
+	(pt 592 552)
+)
+(connector
+	(pt 592 552)
+	(pt 736 552)
 )
 (junction (pt 1632 552))
 (junction (pt 736 552))
